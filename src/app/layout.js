@@ -4,7 +4,7 @@ import "../styles/globals.css";
 import Header from "./components/header/Header";
 import { roboto_mono } from "../styles/fonts";
 import Loading from "./loading";
-import AuthRout from "./authRoute";
+import AuthRout from "./authPatch";
 
 export const metadata = {
   title: "MiZaWra",
