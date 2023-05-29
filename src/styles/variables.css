@@ -1,0 +1,67 @@
+:root {
+  --bg-color-primary: #fbfbfb;
+  --bg-color-secondary: #ffffff;
+
+  --bg-color-hover: #f0f0f0;
+
+  --bg-color-blue: #3060ff;
+  --bg-color-grean: #cde82b;
+  --bg-color-pink: #fdcab9;
+
+  --bg-gradient-blue: radial-gradient(
+    89.55% 64.12% at 50% 92.32%,
+    rgba(48, 96, 255, 0.4) 0%,
+    rgba(251, 251, 251, 0.4) 100%
+  );
+  --bg-gradient-pink: radial-gradient(
+    89.55% 64.12% at 50% 92.32%,
+    rgba(253, 202, 185, 0.95) 0%,
+    rgba(251, 251, 251, 0.95) 100%
+  );
+  --bg-gradient-grean: radial-gradient(
+    89.55% 64.12% at 50% 92.32%,
+    rgba(205, 232, 43, 0.5) 0%,
+    rgba(251, 251, 251, 0.5) 100%
+  );
+
+  --txt-color-primary: #252626;
+  --txt-color-err: #f8503b;
+
+  --border-auth-form-input: 1px solid rgba(158, 158, 158, 0.8);
+  --border-btn: 1px solid rgba(102, 102, 102, 0.1);
+  --border-card: 0.5px solid rgba(102, 102, 102, 0.1);
+
+  --shadow-btn: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --bg-color-primary: #0d0e10;
+  --bg-color-secondary: #212125;
+
+  --bg-color-hover: #313134;
+
+  --bg-color-pink: #ffa184;
+
+  --bg-gradient-blue: radial-gradient(
+    89.55% 64.12% at 50% 92.32%,
+    #1a3696 0%,
+    #0d0e10 100%
+  );
+  --bg-gradient-pink: radial-gradient(
+    89.55% 64.12% at 50% 92.32%,
+    #a67c6f 0%,
+    #0d0e10 100%
+  );
+  --bg-gradient-grean: radial-gradient(
+    89.55% 64.12% at 50% 92.32%,
+    #697712 0%,
+    #0d0e10 100%
+  );
+
+  --txt-color-primary: #fbfbfb;
+
+  --border-btn: 1px solid rgba(196, 194, 194, 0.2);
+  --border-btn-secondary: 1px solid rgba(255, 254, 254, 0.2);
+
+  --shadow-btn: 10px 10px 20px rgba(160, 160, 160, 0.1);
+}

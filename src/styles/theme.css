@@ -1,0 +1,71 @@
+html {
+  background-color: var(--bg-color-primary);
+  color: var(--txt-color-primary);
+}
+
+.bg-color-secondary {
+  background-color: var(--bg-color-secondary);
+}
+.bg-color-blue {
+  color: var(--bg-color-blue);
+}
+.bg-color-grean {
+  color: var(--bg-color-grean);
+}
+.bg-color-pink {
+  color: var(--bg-color-pink);
+}
+
+.border-auth-input {
+  background-color: var(--bg-color-primary);
+  border: var(--border-auth-form-input);
+}
+
+.txt-err {
+  color: var(--txt-color-err);
+}
+
+.btn,
+.card {
+  background-color: var(--bg-color-primary);
+  border: var(--border-btn);
+  box-shadow: var(--shadow-btn);
+  fill: transparent;
+}
+.btn:hover,
+.btn:focus,
+.card:hover,
+.card:focus {
+  background-color: var(--bg-color-hover);
+}
+
+.card:hover.free,
+.card:focus.free {
+  fill: var(--bg-color-blue);
+}
+.card:hover.prompted,
+.card:focus.prompted {
+  fill: var(--bg-color-grean);
+}
+.card:hover.story,
+.card:focus.story {
+  fill: var(--bg-color-pink);
+}
+
+.bggradient {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+}
+.bggradient.free {
+  background-image: var(--bg-gradient-blue);
+}
+.bggradient.prompted {
+  background-image: var(--bg-gradient-grean);
+}
+.bggradient.story {
+  background-image: var(--bg-gradient-pink);
+}
