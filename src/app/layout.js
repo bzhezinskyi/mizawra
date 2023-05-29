@@ -1,10 +1,7 @@
-import { Suspense } from "react";
 import "../styles/globals.css";
 
 import Header from "./components/header/Header";
 import { roboto_mono } from "../styles/fonts";
-import Loading from "./loading";
-import AuthRout from "./authPatch";
 
 export const metadata = {
   title: "MiZaWra",
@@ -16,11 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={roboto_mono.className}>
       <body className="container mx-auto">
         <Header />
-        <Suspense fallback={<Loading />}>
-          <AuthRout>
-            <main>{children}</main>
-          </AuthRout>
-        </Suspense>
+        <main>{children}</main>
       </body>
     </html>
   );
